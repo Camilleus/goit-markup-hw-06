@@ -255,7 +255,7 @@ nav li a:hover {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url(../images/mainpage/herobackgroundimg.jpg);
-        position:relative;
+    position: relative;
 }
 
 .hero-header {
@@ -290,12 +290,12 @@ nav li a:hover {
 /* Modla Window settings */
 
 .modalbox {
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    width:100%;
-    height:100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -315,13 +315,9 @@ nav li a:hover {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modalbox:hover {
-    visibility:visible;
-}
-
 .modalwindow {
     position: relative;
-    margin:15% auto auto;
+    margin: 15% auto auto;
     z-index: 2;
     backdrop-filter: 50%;
     width: 528px;
@@ -341,9 +337,9 @@ nav li a:hover {
 
 .modalbox svg:hover {
     border-radius: 50%;
-    fill:red;   
-    color:red;
-    cursor:pointer;
+    fill: red;
+    color: red;
+    cursor: pointer;
 }
 
 .modalwindow button {
@@ -351,14 +347,15 @@ nav li a:hover {
     align-items: center;
     margin-right: 8px;
     margin-top: 8px;
-    margin-left:auto;
-    margin-bottom:auto;
+    margin-left: auto;
+    margin-bottom: auto;
     display: flex;
-    color:transparent;
+    color: transparent;
     background-color: transparent;
     border-color: transparent;
     border-radius: 50%;
 }
+
 .modalwindow button svg:hover {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 50%;
@@ -685,9 +682,9 @@ li div p {
     width: 370px;
     background: var(--white-color);
     border: 1px solid #EEEEEE;
-    height:450px;
+    height: 450px;
     position: relative;
-    overflow: hidden;   
+    overflow: hidden;
     margin: 1% 0.65% 1%;
 }
 
@@ -696,53 +693,48 @@ li div p {
     cursor: pointer;
 }
 
-.card2 img {
-}
-
-.card2-overflow {
-}
-
 .card2 figure {
     width: 100%;
-    height:100%;
+    height: 100%;
     margin: 0 0 0 0;
-    
+
 }
+
 figure img {
     object-fit: cover;
     width: 100%;
-    height:100%;
+    height: 100%;
     transition: scale 3s;
 }
 
 .box {
-  position: relative;
-  margin: 0 auto;
-  overflow: hidden;
-  inset: 0;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    inset: 0;
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateY(+100%);
-  transition: transform 250ms ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(+100%);
+    transition: transform 250ms ease;
     transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box:hover .overlay {
-  transform: translateY(0);
+    transform: translateY(0);
 }
 
 .overlay p {
-  color: transparent;
-  padding: 30px;
-  margin: 0;
-  font-size: 18px;
+    color: transparent;
+    padding: 30px;
+    margin: 0;
+    font-size: 18px;
 }
 
 .card2-description-item {
@@ -757,17 +749,14 @@ figure img {
     height: 294px;
 }
 
-.card2-description-item:hover {
-}
-
 .card2-description-text {
     position: relative;
     font-weight: 400;
     font-size: 18px;
     line-height: 156%;
     letter-spacing: 0.03em;
-    padding:10%;
-    color:transparent;
+    padding: 10%;
+    color: transparent;
     width: 370px;
     height: 294px;
     align-self: center;
@@ -794,6 +783,7 @@ figure img {
 .card2-headers {
     z-index: 1;
 }
+
 .card2-subtitle {
     margin-left: 24px;
     margin-right: 24px;
@@ -816,7 +806,7 @@ footer {
     z-index: 999;
     align-items: center;
     display: flex;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
 .footer {
