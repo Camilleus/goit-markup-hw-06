@@ -913,3 +913,62 @@ address ul {
 .footer2-social:hover {
     fill: var(--white-color);
 }
+
+
+.footer3 {
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+    flex-direction: column;
+}
+
+.footer3 h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.footer3-socials-item {
+    height: 50px;
+    width: 200px;
+    background-image: url(../images/icons.svg#icon-ellipse);
+    background: var(--primary-color);
+    background-size: 44px;
+    border-radius: 4%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 188%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+
+}
+
+.footer3-socials-item:hover {
+    cursor: pointer;
+}
+
+.footer3-socials {
+    width: 206px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    fill: var(--white-color);
+
+}
+
+.footer3-icon {
+    fill: var(--white-color);
+}
+.footer3-icon:hover {
+    fill: var(--white-color);
+}
