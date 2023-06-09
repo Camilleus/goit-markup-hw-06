@@ -801,7 +801,7 @@ figure img {
 
 footer {
     background-color: var(--footer-color);
-    height: 252px;
+    min-height: 252px;
     left: 0;
     right: 0;
     z-index: 999;
