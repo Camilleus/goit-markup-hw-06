@@ -995,53 +995,58 @@ address ul {
     cursor: pointer;
 }
 
+.form-input {
+    width: 448px;
+    height: 40px;
+    background-color: inherit;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 0 0 0 42px;
+    display: block;
+
+
+}
+
+.form-input:hover{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    fill: var(--primary-color);
+    cursor: pointer;
+
+}
+.form-input::selection {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    fill: var(--primary-color);
+    cursor: pointer;
+
+}
+.input-icons textarea {
+
+    width: 448px;
+    height: 120px;
+    background-color: inherit;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 12px 16px;
+    resize: none;
+    display: block;
+}
+
 .form {
     display: flex;
     flex-direction: column;
     margin: 40px;
 }
 
-.form-contianer {
+.form-container {
     position: relative;
-    color: var(--black-color)
+    color: var(--black-color);
 }
 
-.form-contianer:hover {
-    position: relative;
+.form-container:hover .form-container:focus {
     color: var(--primary-color);
-        fill: var(--primary-color);
-}
-
-.form-container svg {
-    fill:var(--black-color);
-}
-
-.form-container svg:hover :focus {
     fill: var(--primary-color);
-    color: var(--primary-color)
-}
-
-.input-stuff input {
-    width: 448px;
-    height: 40px;
-    background-color: inherit;
-    border: 1px solid ;
-    border-radius: 4px;
-    padding: 0 0 0 42px;
-    display: block;
-    
-}
-
-.input-icons textarea {
-    
-    width: 448px;
-    height: 120px;
-    background-color: inherit;
-    border: 1px solid ;
-    border-radius: 4px;
-    padding: 12px 16px;
-    resize: none;
-    display: block;
 }
 
 form h3 {
@@ -1059,9 +1064,26 @@ form h3 {
     line-height: 14px;
     margin: 10px 0 4px 0;
     display: flex;
+
 }
 
+.form-icons {
+    fill:var(--black-color)
+}
+.form-icons {
+    top: -29px;
+    left: 12px;
+    position: relative;
+}
+.form-icons:hover {
+    color: var(--primary-color);
+    fill: var(--primary-color);
+}
 
+.form-icons:focus {
+    color: var(--primary-color);
+    fill: var(--primary-color);
+}
 .checkbox-label {
     margin: 20px 0 30px 15px;
     font-weight: 400;
@@ -1071,6 +1093,7 @@ form h3 {
     display: flex;
     align-items: center;
     position: relative;
+
 }
 
 .checkbox-label a {
@@ -1084,7 +1107,6 @@ form h3 {
 }
 
 .checkbox-hidden:checked~.checkbox-icon {
-    visibility: visible;
 }
 
 .checkbox-hidden:checked~.checkbox-icon-unchecked {
@@ -1114,19 +1136,25 @@ form h3 {
     z-index: 10;
 }
 
+.form-input-comment {
+    width: 448px;
+    height: 40px;
+    background-color: inherit;
+    border: 1px solid;
+    border-radius: 4px;
+    display: block;
+
+}
+
+.form-input-comment:hover {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    fill: var(--primary-color);
+    cursor: pointer;
+}
 
 .input-icons svg {
     position: absolute;
-}
-
-.icons-form {
-    top:-35px;
-    left:7px;
-    position: relative;
-}
-
-.icons-form {
-    fill:var(--primary-color);  
 }
 
 .icon-checkbox {
