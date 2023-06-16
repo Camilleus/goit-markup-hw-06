@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#ffffff" />
-    <title>Zadanie domowe studentów #5 #Kamil Truszkowski</title>
+    <title>Zadanie domowe studentów #6 #Kamil Truszkowski</title>
     <link rel="stylesheet" href="./styles/modern-normalize.min.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
 </head>
@@ -392,7 +392,7 @@
                     <div class="form-container">
                         <label for="phone" class="form-label">
                             Telefon</label>
-                        <input class="form-input" id="phone" type="tel" name="phone_number" />
+                        <input class="form-input" id="phone" type="tel" name="phone_number" required/>
                         <svg width="13px" height="13px" class="icons-form">
                             <use href="./images/icons.svg#icon-person-call"></use>
                         </svg>
@@ -400,7 +400,7 @@
 
                     <div class="form-container">
                         <label for="e-mail" class="form-label">Email</label>
-                        <input id="e-mail" type="email" name="email" class="form-input">
+                        <input id="e-mail" type="email" name="email" class="form-input" required>
                         <svg width="15px" height="12px" class="icons-form">
                             <use href="./images/icons.svg#icon-person-mail"></use>
                         </svg>
@@ -422,10 +422,9 @@
                     </svg>
                     <div class="checkbox-text">Oświadczam iż akceptuję <a href="">Regulamin</a> i <a href="">Politykę
                             Prywatności</a></div>
-
+                </label>
                     <button type=button class="form-button" width="200" height="50">Wyślij
                     </button>
-                </label>
             </form>
         </div>
     </div>
