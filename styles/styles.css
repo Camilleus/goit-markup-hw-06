@@ -947,23 +947,6 @@ address ul {
     border-radius: 4px;
 }
 
-.icons-form {
-    width: 30px;
-    height: 30px;   
-}
-
-.icons-form:hover {
-    fill: var(--primary-color);
-    color: var(--primary-color);
-    cursor: pointer;
-}
-
-.icons-form:focus {   
-    fill: var(--primary-color);
-    color: var(--primary-color);
-    cursor: pointer;
-}
-
 .modalwindow-closebutton{
     padding: 0% 0% 0%;
     align-items: center;
@@ -1071,8 +1054,8 @@ form h3 {
     fill:var(--black-color)
 }
 .form-icons {
-    top: -29px;
-    left: 12px;
+    top: -35px;
+    left: 6px;
     position: relative;
 }
 .form-icons:hover {
@@ -1084,6 +1067,12 @@ form h3 {
     color: var(--primary-color);
     fill: var(--primary-color);
 }
+
+.form-icons {
+    width: 30px;
+    height: 30px;
+}
+
 .checkbox-label {
     margin: 20px 0 30px 15px;
     font-weight: 400;
